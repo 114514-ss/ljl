@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9. 爱好清单 - ljl-赖锦城</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background-color: #e8f0fb;
+            padding: 40px 0;
+        }
+        .exam-card {
+            width: 1100px;
+            height: 600px;
+            margin: 0 auto;
+            background: #fff;
+            border: 8px solid #2c5282;
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(44, 82, 130, 0.25);
+            display: flex;
+            overflow: hidden;
+        }
+        .left-nav {
+            width: 280px;
+            height: 100%;
+            background-color: #2c5282;
+            padding: 40px 20px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        .left-nav::-webkit-scrollbar {
+            width: 6px;
+        }
+        .left-nav::-webkit-scrollbar-track {
+            background: #1a365d;
+        }
+        .left-nav::-webkit-scrollbar-thumb {
+            background: #4a72a8;
+            border-radius: 3px;
+        }
+        .left-nav::-webkit-scrollbar-thumb:hover {
+            background: #638fc7;
+        }
+        .left-nav h3 {
+            color: #fff;
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+            padding-right: 6px;
+        }
+        .nav-link {
+            display: block;
+            text-align: center;
+            line-height: 50px;
+            font-size: 17px;
+            font-weight: bold;
+            color: #ffffff;
+            text-decoration: none;
+            margin: 12px 0;
+            border-radius: 8px;
+            transition: 0.3s;
+            padding-right: 6px;
+        }
+        .nav-link:hover, .nav-link.active {
+            background-color: #4a72a8;
+        }
+        .right-content {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+        }
+        .right-content h2 {
+            text-align: center;
+            font-size: 26px;
+            color: #2c5282;
+            margin-bottom: 30px;
+            letter-spacing: 3px;
+        }
+        .hobby-list {
+            font-size: 18px;
+            color: #333;
+            line-height: 2.2;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="exam-card">
+    <div class="left-nav">
+        <h3>ljl专属导航</h3>
+        <a href="index.html" class="nav-link">1. 关于我</a>
+        <a href="page2.html" class="nav-link">2. 搞怪日常</a>
+        <a href="page3.html" class="nav-link">3. 精神状态</a>
+        <a href="page4.html" class="nav-link">4. 本命尚博乐</a>
+        <a href="page5.html" class="nav-link">5. 可爱一面</a>
+        <a href="page6.html" class="nav-link">6. 互联网嘴替</a>
+        <a href="page7.html" class="nav-link">7. 偶像康康</a>
+        <a href="page8.html" class="nav-link">8. 尚博乐名场面</a>
+        <a href="page9.html" class="nav-link active">9. 爱好清单</a>
+        <a href="page10.html" class="nav-link">10. 想对你说</a>
+        <a href="page1.html" class="nav-link">返回首页</a>
+    </div>
+    <div class="right-content">
+        <h2>🎯 我的爱好清单</h2>
+        <div class="hobby-list">
+            1. 打游戏，尤其是喜欢玩有尚博乐的游戏<br>
+            2. 看职业比赛，康康是我的头号粉丝<br>
+            3. 收集搞怪表情包，做朋友圈最搞笑的仔<br>
+            4. 喜欢可爱的事物，软乎乎的东西都无法拒绝<br>
+            5. 分享日常快乐，用乐观心态拥抱每一天
+        </div>
+    </div>
+</div>
+</body>
+</html>
